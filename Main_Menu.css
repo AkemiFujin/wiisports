@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+html {
+  background-color: rgb(17, 17, 27)
+}
+header{
+  background-color: rgb(0, 0, 0);
+}
+.icon {
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 50px;
+}
+nav {
+  background-color: rgb(13, 17, 17);
+  display: flex;
+}
+nav ul {
+  background: rgb(13, 17, 17);
+  width: 600px;
+  height: 60px;
+  margin-left: 20px;
+}
+nav ul li {
+  margin-top: 2px;
+  width: 150px;
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+nav ul li a{
+  font-size: large;
+  display: block;
+  line-height: 58px;
+  color: white;
+  text-decoration: none;
+  border-left: 1px;
+  border-right: 1px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li:hover, nav ul li a:hover{
+  display: block;
+  line-height: 58px;
+  color: black;
+  background-color: rgb(97, 97, 97);
+}
+.two{
+  background: linear-gradient(
+  to top, 
+  rgba(0,0,0,0.6) 0%,
+  rgba(0,0,0,0.6) 100%
+  ), url(WiiSportsBackround1.jpg);
+  height: 200px;
+}
+.title{
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xxx-large;
+  text-align: center;
+  color: white;
+}
+.undertitle{
+  margin-top: 10px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: 20px;
+  text-decoration-line: underline;
+}
+.text{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+.nin{
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+.details{
+  margin-left: 30px;
+}
+.abc{
+  margin-block: 1rem;
+}
+.game{
+  margin: 20px;
+  border: 3px solid rgb(38, 38, 102);
+  border-radius: 10px;
+  background-color: rgb(66, 66, 159);
+}
+.video{
+  margin-inline: 30%;
+}
+.firm{
+  margin: 20px;
+  border: 3px solid rgba(186, 0, 0, 0.97);
+  border-radius: 10px;
+  background-color: rgba(211, 8, 8, 0.529);
+}
+.logo{
+  max-width: 300px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+footer{
+  margin-top: 60px;
+  border: 1px solid;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
