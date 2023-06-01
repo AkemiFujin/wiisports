@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+html {
+  background-color: rgb(17, 17, 27)
+}
+header{
+  background-color: rgb(0, 0, 0);
+}
+.icon {
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 50px;
+}
+nav {
+  background-color: rgb(13, 17, 17);
+  display: flex;
+}
+nav ul {
+  background: rgb(13, 17, 17);
+  width: 600px;
+  height: 60px;
+  margin-left: 20px;
+}
+nav ul li {
+  margin-top: 2px;
+  width: 150px;
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+nav ul li a{
+  font-size: large;
+  display: block;
+  line-height: 58px;
+  color: white;
+  text-decoration: none;
+  border-left: 1px;
+  border-right: 1px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li:hover, nav ul li a:hover{
+  display: block;
+  line-height: 58px;
+  color: black;
+  background-color: rgb(97, 97, 97);
+}
+.two{
+  background: linear-gradient(
+    to top, 
+    rgba(0,0,0,0.6) 0%,
+    rgba(0,0,0,0.6) 100%
+    ), url(WiiSportsBackround1.jpg);
+  height: 200px;
+}
+.title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xxx-large;
+  text-align: center;
+  color: white;
+}
+.undertitle{
+  margin-top: 10px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: 20px;
+  text-decoration-line: underline;
+  display: flex;
+  margin-inline: 47%;
+}
+.photos{
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.gap{
+  margin-left: 50px;
+}
+footer{
+  margin-top: 60px;
+  border: 1px solid grey;
+  background-color: White;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tenis{
+  margin: 20px;
+  border: 5px solid rgb(38, 38, 102);
+  border-radius: 10px;
+  background-color: rgb(66, 66, 159);
+}
+.baseball{
+  margin: 20px;
+  border: 5px solid orange;
+  border-radius: 10px;
+  background-color: rgb(153, 107, 22);
+}
+.bowling{
+  margin: 20px;
+  border: 5px solid red;
+  border-radius: 10px;
+  background-color: rgb(120, 8, 8);
+}
+.golf{
+  margin: 20px;
+  border: 5px solid green;
+  border-radius: 10px;
+  background-color: rgba(9, 78, 9, 0.938);
+}
+.boxing{
+  margin: 20px;
+  border: 5px solid purple;
+  border-radius: 10px;
+  background-color: rgba(91, 11, 91, 0.882);
+}
